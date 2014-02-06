@@ -6,8 +6,8 @@ __author__ = 'Olexandr'
 #solve quadratic equation
 solve_square_equation = lambda a, b, c: [(-b + sqrt(b * b - 4 * a * c)) / (2 * a),
                                          (-b - sqrt(b * b - 4 * a * c)) / (
-                                             2 * a)] if b * b - 4 * a * c > 0 else None if b * b - 4 * a * c < 0 else -b / (
-    2 * a)
+                                             2 * a)] if b * b - 4 * a * c > 0 else \
+    None if b * b - 4 * a * c < 0 else -b / (2 * a)
 print(solve_square_equation(-1, 0, 1))
 
 
