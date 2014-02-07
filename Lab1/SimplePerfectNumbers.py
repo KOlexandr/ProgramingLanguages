@@ -44,9 +44,9 @@ print("find 5th simple:", find_nth_simple(5))
 
 find_nth_needle = lambda next_needle: lambda n: reduce(lambda x, y: next_needle(x + 1), range(n), 1)
 #find nth simple number
-print("find 3nd simple:", find_nth_needle(find_next_simple)(3))
+print("find 3rd simple:", find_nth_needle(find_next_simple)(3))
 #find nth perfect number
-print("find 3nd perfect:", find_nth_needle(find_next_perfect)(3))
+print("find 3rd perfect:", find_nth_needle(find_next_perfect)(3))
 
 
 #find multiplication of n first simple numbers
